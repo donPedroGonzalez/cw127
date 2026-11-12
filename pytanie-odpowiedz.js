@@ -10,7 +10,7 @@ function onPageLoad()
     var exerciceBody = document.getElementById("exercice-wrapper");
     questions = [ "Mets les phrases à la voix active", "Le livre est signé par l'auteur.", "Cette chanson est chantée par toute la classe.", "La maison a été vendue par les propriétaires.", "Les voleurs ont été arrêtés par la police.", "Les récoltes étaient détruites par la grêle.", "Le prix sera remis par le jury.", "Les documents seront vérifiés par le comptable.", "Le projet serait financé par la région." ];
     answers = [ "L'agent (par…) devient le sujet", "L'auteur signe le livre.", "Toute la classe chante cette chanson.", "Les propriétaires ont vendu la maison.", "La police a arrêté les voleurs.", "La grêle détruisait les récoltes.", "Le jury remettra le prix.", "Le comptable vérifiera les documents.", "La région financerait le projet." ];
-    hints = [ "Voix active", "signer", "chanter", "vendre", "arrêter", "détruire", "remettre", "vérifier", "financer" ];
+    hints = [ "Voix active", "", "", "", "", "", "", "", "" ];
 
     var myForm = document.createElement("form");
     myForm.setAttribute("id", "myExercice"); 
